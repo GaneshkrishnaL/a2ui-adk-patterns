@@ -1,0 +1,29 @@
+{
+  "name": "a2ui-react-native-web-demo",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "A2UI v0.9 renderer built on @a2ui/web_core + React Native (react-native-web) with a custom component catalog.",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 8087",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 0.0.0.0 --port 8087",
+    "smoke": "tsx scripts/smoke.ts"
+  },
+  "dependencies": {
+    "@a2ui/web_core": "0.13.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-native-web": "0.19.13",
+    "zod": "3.25.76"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.12",
+    "@types/react-dom": "18.3.1",
+    "@vitejs/plugin-react": "4.3.4",
+    "jsdom": "^25.0.1",
+    "tsx": "^4.19.2",
+    "typescript": "5.9.3",
+    "vite": "5.4.11"
+  }
+}
